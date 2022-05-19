@@ -1,0 +1,8 @@
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.csproj.AssemblyReference.cache
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.AssemblyInfoInputs.cache
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.AssemblyInfo.cs
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.csproj.CoreCompileInputs.cache
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.MvcApplicationPartsAssemblyInfo.cache
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.RazorAssemblyInfo.cache
+D:\source\repos\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.RazorAssemblyInfo.cs
