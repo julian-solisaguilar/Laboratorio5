@@ -1,0 +1,235 @@
+{
+  "id": "e80abdc1-393e-442e-9c32-1d4bf562616b",
+  "version": "2.0",
+  "name": "UITestLaboratorio8",
+  "url": "https://localhost:44355",
+  "tests": [{
+    "id": "d3aa4b9d-5e7d-4f11-9f73-2046db0c15a3",
+    "name": "PruebaUno",
+    "commands": [{
+      "id": "8fade9d1-aa3c-4b24-a041-53a7c749c767",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03babe21-7020-4831-bf96-fe2eb6e35102",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x916",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cada745-c263-497a-aa39-dd3026bd1fc8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [
+        ["css=.display-4", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome')]", "xpath:innerText"]
+      ],
+      "value": "Welcome"
+    }, {
+      "id": "12604bff-1e00-4a32-a589-50021ba35520",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=building Web apps with ASP.NET Core",
+      "targets": [
+        ["linkText=building Web apps with ASP.NET Core", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'building Web apps with ASP.NET Core')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://docs.microsoft.com/aspnet/core')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'building Web apps with ASP.NET Core')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b8bce1f-dc10-4f7e-9bd7-95299e627a2d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.border-top > .container",
+      "targets": [
+        ["css=.border-top > .container", "css:finder"],
+        ["xpath=//footer/div", "xpath:position"],
+        ["xpath=//div[contains(.,'© 2022 - Laboratorio5 - Privacy')]", "xpath:innerText"]
+      ],
+      "value": "© 2022 - Laboratorio5 - Privacy"
+    }, {
+      "id": "b64a65c6-24a1-49ca-b5d8-06c875f23506",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Países",
+      "targets": [
+        ["linkText=Países", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Países')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Paises')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Países')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42cc01d6-f1e4-4d1d-8ceb-744d6defc663",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Costa Rica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63220033-a68d-4065-894e-030a806fab14",
+    "name": "Parte1",
+    "commands": [{
+      "id": "020b271f-74c6-45b4-baaf-bfff266d2ff1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e68f184a-140d-47a9-87f5-3161e4e92055",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x916",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fade84da-24a5-49ee-a790-bd718c7ceaf4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=building Web apps with ASP.NET Core",
+      "targets": [
+        ["linkText=building Web apps with ASP.NET Core", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'building Web apps with ASP.NET Core')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://docs.microsoft.com/aspnet/core')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'building Web apps with ASP.NET Core')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37935c07-683a-4767-a561-a5dcbb916a34",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Home Page - Laboratorio5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7117e96-9219-40f9-8698-8df95e9b8bb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Países",
+      "targets": [
+        ["linkText=Países", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Países')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Paises')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Países')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0712f1-4e35-4823-8795-e581499ee5a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Pais",
+      "targets": [
+        ["linkText=Crear Pais", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Crear Pais')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Paises/CrearPais')]", "xpath:href"],
+        ["xpath=//main/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Crear Pais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8184be33-d151-4bda-9f9f-e6ed92204569",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "id=Nombre",
+      "targets": [
+        ["id=Nombre", "id"],
+        ["name=Nombre", "name"],
+        ["css=#Nombre", "css:finder"],
+        ["xpath=//input[@id='Nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e14f12dc-8f7b-4615-a836-b7d23912ec7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Idioma",
+      "targets": [
+        ["id=Idioma", "id"],
+        ["name=Idioma", "name"],
+        ["css=#Idioma", "css:finder"],
+        ["xpath=//input[@id='Idioma']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "066cadc8-f9b7-474b-ac65-fc1569a00243",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Formulario de creación de países')]", "xpath:innerText"]
+      ],
+      "value": "Formulario de creación de países"
+    }, {
+      "id": "8eec54c8-9db1-47bf-802b-99cf39a2cba8",
+      "comment": "",
+      "command": "click",
+      "target": "id=Continente",
+      "targets": [
+        ["id=Continente", "id"],
+        ["name=Continente", "name"],
+        ["css=#Continente", "css:finder"],
+        ["xpath=//select[@id='Continente']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'-Sin selección-\nAmérica\nAsia\nEuropa\nOceanía\nAntártida\nÁfrica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a29ed5-eb9c-4de3-8a8a-22f22cb0dcce",
+      "comment": "",
+      "command": "select",
+      "target": "id=Continente",
+      "targets": [],
+      "value": "label=Asia"
+    }, {
+      "id": "900350c6-f0da-4a74-b564-ec14030604e6",
+      "comment": "",
+      "command": "assertSelectedLabel",
+      "target": "id=Continente",
+      "targets": [],
+      "value": "Asia"
+    }]
+  }],
+  "suites": [{
+    "id": "c6e13cb6-e699-4da8-bacb-34f395d156ec",
+    "name": "PruebaUno",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d3aa4b9d-5e7d-4f11-9f73-2046db0c15a3"]
+  }, {
+    "id": "e5ae6ccd-95eb-49c0-880f-dcc6f7188a1e",
+    "name": "Parte1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63220033-a68d-4065-894e-030a806fab14"]
+  }],
+  "urls": ["https://localhost:44355/"],
+  "plugins": []
+}
